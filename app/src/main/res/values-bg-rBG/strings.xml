@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name"></string>
+
+    <string name="login">Влизане</string>
+    <string name="hint_email">Имейл</string>
+    <string name="hint_password">Парола</string>
+    <string name="hint_confirm_password">Потвърждение на парола</string>
+    <string name="sign_up">Регистрирай се</string>
+    <string name="registration">Регистрация</string>
+    <string name="register">Регистрация</string>
+    <string name="save">Запази</string>
+    <string name="cancel">Върни</string>
+    <string name="delete">Изтрий</string>
+
+    <string name="feeding">Хранене</string>
+    <string name="sleeping">Спане</string>
+    <string name="diaper">Памперс</string>
+    <string name="pumping">Изпомпване</string>
+    <string name="important">Важни</string>
+    <string name="alarms">Аларми</string>
+    <string name="forgotten_password">Забравена парола</string>
+    <string name="children">Деца</string>
+
+    <string name="breastmilk_fragment">Кърма</string>
+    <string name="expressed_fragment">Изцедено мляко</string>
+    <string name="adaptedmilk_fragment">Адаптирано мляко</string>
+    <string name="food_fragment">Храна</string>
+    <string name="fragment_growth">Растеж</string>
+    <string name="fragment_memory">Спомен</string>
+    <string name="fragment_symptoms">Симптоми</string>
+    <string name="fragment_medication">Лекарства</string>
+    <string name="fragment_vaccine">Ваксина</string>
+
+    <string name="time_string">Време</string>
+    <string name="starting_at_string">Започва от</string>
+    <string name="started_with">Започва с</string>
+    <string name="ate_at">Хранено в</string>
+    <string name="amount_string_l">Количество (мл)</string>
+    <string name="amount_string_g">Количество (гр)</string>
+    <string name="type_string">Тип</string>
+
+    <string name="hint_note">Бележка</string>
+
+    <string name="success_message">Успешна регистрация</string>
+    <string name="error_email_exists">Имейлът вече съществува</string>
+    <string name="error_password_match">Паролите не съвпадат</string>
+    <string name="error_valid_email_password">Грешен имейл или парола</string>
+    <string name="enter_email">Въведете имейл</string>
+    <string name="reset_password">Рестарт на парола</string>
+    <string name="forgotten_password_question">Забравена парола?</string>
+    <string name="send">Прати</string>
+
+
+    <string name="fell_asleep_at">Заспа в</string>
+    <string name="woke_up_at">Събуди се в</string>
+    <string name="slept">Сън</string>
+
+    <string name="activity_reminders">Напомняне</string>
+
+    <string name="dry">Сух</string>
+    <string name="wet">Мокър</string>
+    <string name="dirty">Мръсен</string>
+    <string name="mixed">Смесен</string>
+
+    <string name="simultaneous">Тандем</string>
+
+    <string name="title">Заглавие</string>
+
+    <string name="length">Дължина (см)</string>
+    <string name="weight">Тегло (кг)</string>
+
+    <string name="name">Име</string>
+    <string name="birth_date">Рожденна дата</string>
+    <string name="gender">Пол</string>
+    <string name="female">Женски</string>
+    <string name="male">Мъжки</string>
+
+    <string name="email_to">До:</string>
+    <string name="email_subject">Тема:</string>
+    <string name="email_message">Съобщение:</string>
+    <string name="plus">+</string>
+    <string name="reset">Изтрий</string>
+    <string name="date">Дата</string>
+
+    <string name="medication">Лекарство</string>
+    <string name="memory">Спомен</string>
+    <string name="symptom">Симптом</string>
+    <string name="vaccine">Ваксина</string>
+    <string name="growth">Растеж</string>
+
+    <string name="settings">Настройки</string>
+    <string name="preferences">Предпочитания</string>
+    <string name="misc">Разни</string>
+    <string name="alarm_sound">Мелодия на аларми</string>
+    <string name="icon_legend">Легенда на икони</string>
+    <string name="language">Език</string>
+    <string name="email_support">Имейл съпорт</string>
+    <string name="application">Приложение</string>
+    <string name="like">Харесай</string>
+    <string name="share">Сподели</string>
+    <string name="rate">Оцени</string>
+    <string name="version">Версия</string>
+    <string name="logout">Изход</string>
+    <string name="account">Акаунт</string>
+    <string name="faq">FAQ</string>
+    <string name="light_dark_theme">Светла/тъмна тема</string>
+    <string name="fragment_pics">Снимки</string>
+    <string name="sleep">Сън</string>
+    <string name="edit">Промени</string>
+    <string name="last_slept_few_seconds">Последно спане за няколко секунди</string>
+    <string name="last_slept_for">Последно спане:</string>
+    <string name="fell_asleep_home">Последно заспива преди</string>
+    <string name="last_changed">Последна смяна:</string>
+    <string name="at">в</string>
+    <string name="last_fed">Последно хранене:</string>
+    <string name="simultaneous_breastfeeding">тандемно кърмене</string>
+    <string name="with">с</string>
+    <string name="breast">гърда</string>
+    <string name="started">Започна</string>
+    <string name="last_added">Последно добавен</string>
+    <string name="last_reminder">Последно напомняне</string>
+    <string name="a_few_seconds">няколко секунди</string>
+    <string name="ago">.</string>
+    <string name="meat">Месо</string>
+    <string name="veggies">Зеленчуци</string>
+    <string name="fruit">Плодове</string>
+    <string name="cereal">Зърнена закуска</string>
+    <string name="water">Вода</string>
+    <string name="juice">Сок</string>
+    <string name="chocolate">Шоколад</string>
+    <string name="milk">Мляко</string>
+    <string name="vitamins">Витамини</string>
+    <string name="headache">Главобол</string>
+    <string name="stomachache">Стомашни болки</string>
+    <string name="toothache">Зъбобол</string>
+    <string name="temperature">Температура</string>
+    <string name="fever">Треска</string>
+    <string name="cough">Кашлица</string>
+    <string name="secretions">Секрети</string>
+    <string name="diarrhea">Диария</string>
+    <string name="rash">Обрив</string>
+    <string name="dtap">Дифтерия</string>
+    <string name="hepa">Хепатит А</string>
+    <string name="hepb">Хепатит Б</string>
+    <string name="hib">Hib</string>
+    <string name="influenza">Грипна</string>
+    <string name="ipv">IPV</string>
+    <string name="mmr">MMR</string>
+    <string name="pcv">Пневмококи</string>
+    <string name="rv">RV</string>
+    <string name="food">храна</string>
+    <string name="expressed_milk">изцедено мляко</string>
+    <string name="adapted_milk">адаптирано мляко</string>
+    <string name="breast_milk">кърма</string>
+    <string name="simultaneous_pumping">тандемно цедене</string>
+    <string name="left">лява</string>
+    <string name="right">дясна</string>
+    <string name="medication_home">лекарства</string>
+    <string name="memory_home">спомен</string>
+    <string name="symptom_home">симптом</string>
+    <string name="vaccine_home">ваксина</string>
+    <string name="growth_home">растеж</string>
+    <string name="year_old">година</string>
+    <string name="years_old">години</string>
+    <string name="month_old">месец</string>
+    <string name="months_old">месеца</string>
+    <string name="day_old">ден</string>
+    <string name="days_old">дни</string>
+    <string name="few_hours_old">на няколко часа</string>
+
+</resources>

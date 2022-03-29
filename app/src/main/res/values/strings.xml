@@ -1,0 +1,188 @@
+<resources>
+    <string name="app_name">KidTracker</string>
+
+    <string name="login">Login</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="registration">Registration</string>
+    <string name="register">Register</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+
+
+    <string name="feeding">Feeding</string>
+    <string name="sleeping">Sleeping</string>
+    <string name="diaper">Diaper</string>
+    <string name="pumping">Pumping</string>
+    <string name="important">Important</string>
+    <string name="alarms">Alarms</string>
+    <string name="forgotten_password">Forgotten password</string>
+    <string name="children">Children</string>
+
+
+    <string name="breastmilk_fragment">Breast milk</string>
+    <string name="expressed_fragment">Expressed milk</string>
+    <string name="adaptedmilk_fragment">Adapted milk</string>
+    <string name="food_fragment">Food</string>
+    <string name="medication">Medication</string>
+    <string name="memory">Memory</string>
+    <string name="symptom">Symptom</string>
+    <string name="vaccine">Vaccine</string>
+    <string name="growth">Growth</string>
+
+    <string name="time_string">Time</string>
+    <string name="starting_at_string">Starting at</string>
+    <string name="started_with">Started with</string>
+    <string name="ate_at">Ate at</string>
+    <string name="amount_string_g">Amount (G)</string>
+    <string name="amount_string_l">Amount (ml)</string>
+    <string name="type_string">Type</string>
+
+    <string name="hint_note">Note</string>
+
+    <string name="success_message">Registration Successful</string>
+    <string name="text_not_member">No account yet? Create one</string>
+    <string name="text_already_member">Already a member? Login</string>
+    <string name="error_email_exists">Email Already Exists</string>
+    <string name="error_password_match">Passwords do not match</string>
+    <string name="error_valid_email_password">Wrong Email or Password</string>
+    <string name="enter_email">Enter your email</string>
+    <string name="reset_password">Reset password</string>
+    <string name="forgotten_password_question">Forgotten password?</string>
+    <string name="send">Send</string>
+
+    <string name="fell_asleep_at">Fell asleep at</string>
+    <string name="woke_up_at">Woke up at</string>
+    <string name="slept">Slept</string>
+
+    <string name="fragment_growth">Growth</string>
+    <string name="fragment_memory">Memory</string>
+    <string name="fragment_symptoms">Symptoms</string>
+    <string name="fragment_medication">Medication</string>
+    <string name="fragment_vaccine">Vaccine</string>
+    <string name="fragment_pics">Pics</string>
+
+    <string name="activity_reminders">Reminders</string>
+
+    <string name="dry">Dry</string>
+    <string name="wet">Wet</string>
+    <string name="dirty">Dirty</string>
+    <string name="mixed">Mixed</string>
+
+    <string name="simultaneous">SIMULTANEOUS</string>
+
+    <string name="title">Title</string>
+
+    <string name="length">Length (cm)</string>
+    <string name="weight">Weight (kg)</string>
+
+    <string name="name">Name</string>
+    <string name="birth_date">Birth date</string>
+    <string name="gender">Gender</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+
+    <string name="email_to">To:</string>
+    <string name="email_subject">Subject:</string>
+    <string name="email_message">Message:</string>
+    <string name="plus">+</string>
+    <string name="reset">Reset</string>
+    <string name="date">Date</string>
+    <string name="sleep">Sleep</string>
+
+    <string name="settings">Settings</string>
+    <string name="preferences">Preferences</string>
+    <string name="misc">Misc</string>
+    <string name="alarm_sound">Alarm sound</string>
+    <string name="icon_legend">Icon legend</string>
+    <string name="language">Language</string>
+    <string name="email_support">Email support</string>
+    <string name="application">Application</string>
+    <string name="like">Like</string>
+    <string name="share">Share</string>
+    <string name="rate">Rate</string>
+    <string name="version">Version</string>
+    <string name="logout">Logout</string>
+    <string name="account">Account</string>
+    <string name="faq">FAQ</string>
+    <string name="light_dark_theme">Light/Dark theme</string>
+    <string name="edit">EDIT</string>
+
+    <string name="last_slept_few_seconds">Last slept for a few seconds</string>
+    <string name="last_slept_for">Last slept for: </string>
+    <string name="fell_asleep_home">Fell asleep: </string>
+    <string name="ago">ago.</string>
+    <string name="last_changed">Last changed: </string>
+    <string name="at">at</string>
+    <string name="last_fed">Last fed: </string>
+    <string name="simultaneous_breastfeeding">simultaneous breastfeeding </string>
+    <string name="with">with</string>
+    <string name="breast">breast</string>
+    <string name="started">Started</string>
+    <string name="last_added">Last added</string>
+    <string name="last_reminder">Last reminder set for</string>
+    <string name="a_few_seconds">a few seconds</string>
+
+    <string name="meat">Meat</string>
+    <string name="veggies">Veggies</string>
+    <string name="fruit">Fruit</string>
+    <string name="cereal">Cereal</string>
+    <string name="water">Water</string>
+    <string name="juice">Juice</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="milk">Milk</string>
+    <string name="vitamins">Vitamins</string>
+
+    <string name="headache">Headache</string>
+    <string name="stomachache">Stomachache</string>
+    <string name="toothache">Toothache</string>
+    <string name="temperature">Temperature</string>
+    <string name="fever">Fever</string>
+    <string name="cough">Cough</string>
+    <string name="secretions">Secretions</string>
+    <string name="diarrhea">Diarrhea</string>
+    <string name="rash">Rash</string>
+
+    <string name="dtap">DTaP</string>
+    <string name="hepa">HepA</string>
+    <string name="hepb">HepB</string>
+    <string name="hib">Hib</string>
+    <string name="influenza">Influenza</string>
+    <string name="ipv">IPV</string>
+    <string name="mmr">MMR</string>
+    <string name="pcv">PCV</string>
+    <string name="rv">RV</string>
+
+    <string name="food">food</string>
+    <string name="expressed_milk">expressed milk</string>
+    <string name="adapted_milk">adapted milk</string>
+    <string name="breast_milk">breast milk</string>
+
+    <string name="simultaneous_pumping">simultaneous pumping</string>
+    <string name="left">left</string>
+    <string name="right">right</string>
+
+    <string name="medication_home">medication</string>
+    <string name="memory_home">memory</string>
+    <string name="symptom_home">symptom</string>
+    <string name="vaccine_home">vaccine</string>
+    <string name="growth_home">growth</string>
+
+    <string name="year_old">year old</string>
+    <string name="years_old">years old</string>
+    <string name="month_old">month old</string>
+    <string name="months_old">months old</string>
+    <string name="day_old">day old</string>
+    <string name="days_old">days old</string>
+    <string name="few_hours_old">a few hours old</string>
+
+    <string name="title_activity_feeding_chron">FeedingChronActivity</string>
+    <string name="tab_text_1">a</string>
+    <string name="tab_text_2">b</string>
+
+
+
+</resources>

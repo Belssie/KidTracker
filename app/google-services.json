@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "445588101075",
+    "project_id": "kidtracker-3476f",
+    "storage_bucket": "kidtracker-3476f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445588101075:android:eddd680308f7cf2382c126",
+        "android_client_info": {
+          "package_name": "com.example.kidtracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "445588101075-8q9oipk0b069qqkfbraj7v820eg2p9n6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjXMMh8i-MRnc8oLZVwgULO-Z2LXcQAlQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "445588101075-8q9oipk0b069qqkfbraj7v820eg2p9n6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

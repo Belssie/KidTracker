@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main.Fragments.SymptomsFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/whitish_purple">
+
+
+        <Button
+            android:id="@+id/btn_save_symptoms"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rectangle_right"
+            android:fontFamily="@font/roboto_black"
+            android:text="@string/save"
+            android:textColor="@color/whitish_purple"
+            android:textStyle="bold"
+            app:backgroundTint="@color/deep_purple"
+            app:layout_constraintStart_toEndOf="@+id/btn_cancel_symptom"
+            app:layout_constraintTop_toBottomOf="@+id/il_note_symptom"
+            tools:ignore="TextContrastCheck" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/il_time_symptoms"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="10dp"
+            android:hint="@string/time_string"
+            android:textColorHint="@color/deep_purple"
+            app:boxStrokeColor="@color/less_purple"
+            app:hintTextColor="@color/deep_purple"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/iet_time_symptoms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:cursorVisible="false"
+                android:drawableStart="@android:drawable/ic_menu_my_calendar"
+                android:ems="10"
+                android:focusable="false"
+                android:focusableInTouchMode="true"
+                android:fontFamily="@font/roboto_bold"
+                android:gravity="center_vertical"
+                android:textColor="@color/deep_purple"
+                android:textColorHint="@color/deep_purple"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/il_symptoms"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="10dp"
+            android:hint="@string/symptom"
+            android:textColorHint="@color/deep_purple"
+            app:boxStrokeColor="@color/good_purple"
+            app:hintTextColor="@color/deep_purple"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/il_time_symptoms">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/iet_symptom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
+                android:gravity="center_vertical"
+                android:textColor="@color/deep_purple"
+                android:textColorHint="@color/deep_purple"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/cg_symptoms"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="30dp"
+            android:clipChildren="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/il_symptoms">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_headache"
+                style="@style/CustomChipStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="32dp"
+                android:checkable="true"
+                android:checked="false"
+                android:text="@string/headache"
+                app:checkedIconTint="@color/epic_purple" />
+
+            <com.google.android.material.chip.Chip
+
+                android:id="@+id/chip_stomachache"
+                style="@style/CustomChipStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="32dp"
+                android:checkable="true"
+                android:checked="false"
+                android:text="@string/stomachache"
+                app:checkedIconTint="@color/epic_purple" />
+
+            <com.google.android.material.chip.Chip
+
+                android:id="@+id/chip_toothache"
+                style="@style/CustomChipStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="32dp"
+                android:checkable="true"
+                android:checked="false"
+                android:text="@string/toothache"
+                app:checkedIconTint="@color/epic_purple" />
+
+
+            <com.google.android.material.chip.Chip
+
+                android:id="@+id/chip_temperature"
+                style="@style/CustomChipStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="32dp"
+                android:checkable="true"
+                android:checked="false"
+                android:text="@string/temperature"
+                app:checkedIconTint="@color/epic_purple" />
+
+
+            <com.google.android.material.chip.Chip
+
+                android:id="@+id/chip_fever"
+                style="@style/CustomChipStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="32dp"
+                android:checkable="true"
+                android:checked="false"
+                android:text="@string/fever"
+                app:checkedIconTint="@color/epic_purple" />
+
+
+            <com.google.android.material.chip.Chip
+
+                android:id="@+id/chip_cough"
+                style="@style/CustomChipStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="32dp"
+                android:checkable="true"
+                android:checked="false"
+                android:text="@string/cough"
+                app:checkedIconTint="@color/epic_purple" />
+
+
+            <com.google.android.material.chip.Chip
+
+                android:id="@+id/chip_secretions"
+                style="@style/CustomChipStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="32dp"
+                android:checkable="true"
+                android:checked="false"
+                android:text="@string/secretions"
+                app:checkedIconTint="@color/epic_purple" />
+
+
+            <com.google.android.material.chip.Chip
+
+                android:id="@+id/chip_diarrhea"
+                style="@style/CustomChipStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="32dp"
+                android:checkable="true"
+                android:checked="false"
+                android:text="@string/diarrhea"
+                app:checkedIconTint="@color/epic_purple" />
+
+            <com.google.android.material.chip.Chip
+
+                android:id="@+id/chip_rash"
+                style="@style/CustomChipStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="32dp"
+                android:checkable="true"
+                android:checked="false"
+                android:text="@string/rash"
+                app:checkedIconTint="@color/epic_purple" />
+
+        </com.google.android.material.chip.ChipGroup>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/il_note_symptom"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="10dp"
+            android:hint="@string/hint_note"
+            android:textColorHint="@color/deep_purple"
+            app:boxStrokeColor="@color/good_purple"
+            app:hintTextColor="@color/deep_purple"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cg_symptoms">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/iet_note_symptom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
+                android:gravity="center_vertical"
+                android:textColor="@color/deep_purple"
+                android:textColorHint="@color/deep_purple"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+
+            android:id="@+id/btn_cancel_symptom"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rectangle_left"
+            android:fontFamily="@font/roboto_black"
+            android:text="@string/cancel"
+            android:textColor="@color/deep_purple"
+            android:textStyle="bold"
+            app:backgroundTint="@color/whitish_purple"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/il_note_symptom" />
+
+        <ProgressBar
+            android:id="@+id/pb_symptoms"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="400dp"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme.Alert.Button.Purple" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/deep_purple</item>
+    </style>
+
+
+    <style name="SpinnerDatePickerStyle" parent="@android:style/Theme.Holo.Light.Dialog.NoActionBar">
+        <item name="android:textColor">@color/deep_purple</item>
+        <item name="android:background">@color/whitish_purple</item>
+        <item name="android:textColorPrimary">@color/deep_purple</item>
+        <item name="android:buttonBarButtonStyle">@style/AppTheme.Alert.Button.Purple</item>
+    </style>
+
+    <style name="CustomChipStyle" parent="Widget.MaterialComponents.Chip.Filter">
+        <item name="chipBackgroundColor">@color/chip_background_color</item>
+        <item name="android:textColor">@color/chip_text_color</item>
+    </style>
+
+    <style name="DarkTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    </style>
+
+    <!--  -->
+    <style name="LightTheme" parent="Theme.AppCompat.Light.DarkActionBar" >
+
+    </style>
+
+
+</resources>

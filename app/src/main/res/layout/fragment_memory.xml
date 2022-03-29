@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main.Fragments.MemoryFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/whitish_purple">
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/il_date_memory"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="10dp"
+            android:hint="@string/date"
+            android:textColorHint="@color/deep_purple"
+            app:boxStrokeColor="@color/less_purple"
+            app:hintTextColor="@color/deep_purple"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/iet_date_memory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:cursorVisible="false"
+                android:drawableStart="@android:drawable/ic_menu_my_calendar"
+                android:ems="10"
+                android:focusable="false"
+                android:focusableInTouchMode="true"
+                android:fontFamily="@font/roboto_bold"
+                android:gravity="center_vertical"
+                android:textColor="@color/deep_purple"
+                android:textColorHint="@color/deep_purple"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/il_memory"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="10dp"
+            android:hint="@string/memory"
+            android:textColorHint="@color/deep_purple"
+            app:boxStrokeColor="@color/good_purple"
+            app:hintTextColor="@color/deep_purple"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/il_date_memory">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/iet_memory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
+                android:gravity="center_vertical"
+                android:textColor="@color/deep_purple"
+                android:textColorHint="@color/deep_purple"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/il_note_memory"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="10dp"
+            android:hint="@string/hint_note"
+            android:textColorHint="@color/deep_purple"
+            app:boxStrokeColor="@color/good_purple"
+            app:hintTextColor="@color/deep_purple"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/il_memory">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/iet_note_memory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
+                android:gravity="center_vertical"
+                android:textColor="@color/deep_purple"
+                android:textColorHint="@color/deep_purple"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+
+            android:id="@+id/btn_cancel_memory"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rectangle_left"
+            android:fontFamily="@font/roboto_black"
+            android:text="@string/cancel"
+            android:textColor="@color/deep_purple"
+            android:textStyle="bold"
+            app:backgroundTint="@color/whitish_purple"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/il_note_memory" />
+
+        <Button
+            android:id="@+id/btn_save_memory"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rectangle_right"
+            android:fontFamily="@font/roboto_black"
+            android:text="@string/save"
+            android:textColor="@color/whitish_purple"
+            android:textStyle="bold"
+            app:backgroundTint="@color/deep_purple"
+            app:layout_constraintStart_toEndOf="@+id/btn_cancel_memory"
+            app:layout_constraintTop_toBottomOf="@+id/il_note_memory"
+            tools:ignore="TextContrastCheck" />
+
+        <ProgressBar
+            android:id="@+id/pb_memory"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="400dp"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

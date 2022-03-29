@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="view_pager_feeding_chron" type="id" />
+    <item name="btn_feeding_chron_back" type="id" />
+    <item name="tabs_feeding_chron" type="id" />
+    <item name="tv_feeding_chron" type="id" />
+</resources>

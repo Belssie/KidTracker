@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name"></string>
+    <string name="login">Se Connecter</string>
+    <string name="hint_email">Identifiant</string>
+    <string name="hint_password">Mot de passe</string>
+    <string name="hint_confirm_password">Confirme mot de passe</string>
+    <string name="sign_up">Sign up</string>
+    <string name="registration">Enregistrement</string>
+    <string name="register">S\'inscrire</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+
+    <string name="feeding">Alimentation</string>
+    <string name="sleeping">Endormi</string>
+    <string name="diaper">Couche</string>
+    <string name="pumping">Pompage</string>
+    <string name="important">Important</string>
+    <string name="alarms">Alarms</string>
+    <string name="forgotten_password">Forgotten password</string>
+    <string name="children">Children</string>
+
+    <string name="breastmilk_fragment">Lait maternel</string>
+    <string name="expressed_fragment">Lait égoutté</string>
+    <string name="adaptedmilk_fragment">Lait adapté</string>
+    <string name="food_fragment">Nourriture</string>
+    <string name="medication">Medication</string>
+    <string name="memory">Memory</string>
+    <string name="symptom">Symptom</string>
+    <string name="vaccine">Vaccine</string>
+    <string name="growth">Growth</string>
+
+    <string name="time_string">Temps</string>
+    <string name="starting_at_string">A commencé a</string>
+    <string name="started_with">Commencé avec</string>
+    <string name="ate_at">Mangé à</string>
+    <string name="amount_string_g">Quantité (G)</string>
+    <string name="type_string">Type</string>
+
+    <string name="hint_note">Remarques</string>
+
+    <string name="success_message">Inscription réussie</string>
+    <string name="text_not_member">Pas encore abonné? créer un compte</string>
+    <string name="text_already_member">Déjà enregistré? Connexion</string>
+    <string name="error_email_exists">Cette adresse e-mail est déjà utilisée</string>
+    <string name="error_password_match">Mot de passe incorrect</string>
+    <string name="error_valid_email_password">E-mail ou mot de passe erroné</string>
+    <string name="enter_email">Enter your email</string>
+    <string name="reset_password">Reset password</string>
+    <string name="forgotten_password_question">Forgotten password?</string>
+    <string name="send">Send</string>
+
+    <string name="fell_asleep_at">Endormi à</string>
+    <string name="woke_up_at">Réveillé à</string>
+    <string name="slept">Dormi</string>
+
+    <string name="fragment_growth">Croissance</string>
+    <string name="fragment_memory">Mémoire</string>
+    <string name="fragment_symptoms">Symptômes</string>
+    <string name="fragment_medication">Médicaments</string>
+    <string name="fragment_vaccine">Vaccin</string>
+    <string name="fragment_pics">Photos</string>
+
+    <string name="activity_reminders">Rappels</string>
+
+    <string name="dry">Sec</string>
+    <string name="wet">Moullier</string>
+    <string name="dirty">Sale</string>
+    <string name="mixed">Mixte</string>
+
+    <string name="simultaneous">SIMULTANÉ</string>
+
+    <string name="title">Titre</string>
+
+    <string name="length">Longueur</string>
+    <string name="weight">Poids</string>
+
+    <string name="name">Prénom</string>
+    <string name="birth_date">Date de naissance</string>
+    <string name="gender">Sexe</string>
+    <string name="female">Femelle</string>
+    <string name="male">Mâle</string>
+
+    <string name="email_to">À:</string>
+    <string name="email_subject">Sujet:</string>
+    <string name="email_message">Message:</string>
+    <string name="plus">+</string>
+    <string name="reset">Réinitialiser</string>
+    <string name="date">Date</string>
+
+    <string name="settings">Réglages</string>
+    <string name="preferences">Préférences</string>
+    <string name="misc">Divers</string>
+    <string name="alarm_sound">Mélodie d`alarme</string>
+    <string name="icon_legend">Légende de l`icône</string>
+    <string name="language">Langue</string>
+    <string name="email_support">Assistance par courrier électronique</string>
+    <string name="application">Application</string>
+    <string name="like">Like</string>
+    <string name="share">Share</string>
+    <string name="rate">Rate</string>
+    <string name="version">Version</string>
+    <string name="logout">Déconnexion</string>
+    <string name="account">Compte</string>
+    <string name="faq">FAQ</string>
+    <string name="light_dark_theme">Thème clair/sombre</string>
+    <string name="amount_string_l">Quantité (G)</string>
+    <string name="edit">Éditer </string>
+    <string name="last_slept_few_seconds">Dernier sommeil de quelques secondes</string>
+    <string name="last_slept_for">"Dernier sommeil: "</string>
+    <string name="fell_asleep_home">"Il s'est endormi pour la dernière fois avant "</string>
+    <string name="ago">.</string>
+    <string name="last_changed">"Dernier changement "</string>
+    <string name="at">a</string>
+    <string name="last_fed">"Dernier repas: "</string>
+    <string name="simultaneous_breastfeeding">"allaitement en tandem "</string>
+    <string name="with">avec</string>
+    <string name="breast">sein</string>
+    <string name="started">"Ça a commencé "</string>
+    <string name="last_added">"Dernier ajouté "</string>
+    <string name="last_reminder">"Un dernier rappel "</string>
+    <string name="a_few_seconds">"quelques secondes "</string>
+    <string name="meat">Viande</string>
+    <string name="veggies">"Légumes "</string>
+    <string name="fruit">Fruits</string>
+    <string name="cereal">Céréale</string>
+    <string name="water">L\'eau</string>
+    <string name="juice">Jus</string>
+    <string name="chocolate">Chocolat</string>
+    <string name="milk">Lait</string>
+    <string name="vitamins">Vitamines</string>
+    <string name="headache">"Mal de tête "</string>
+    <string name="stomachache">"Douleur d'estomac "</string>
+    <string name="toothache">"Mal aux dents "</string>
+    <string name="temperature">Température</string>
+    <string name="fever">Fièvre</string>
+    <string name="cough">Toux</string>
+    <string name="secretions">"Sécrétions "</string>
+    <string name="diarrhea">Diarrhée</string>
+    <string name="rash">Éruption</string>
+    <string name="dtap">"Diphtérie "</string>
+    <string name="hepa">"Hépatite A "</string>
+    <string name="hepb">Hépatite B</string>
+    <string name="hib">Hib</string>
+    <string name="influenza">Grippe</string>
+    <string name="ipv">IPV</string>
+    <string name="mmr">ROR</string>
+    <string name="pcv">PCV</string>
+    <string name="rv">RV</string>
+    <string name="food">aliments</string>
+    <string name="expressed_milk">"lait exprimé "</string>
+    <string name="adapted_milk">"lait adapté "</string>
+    <string name="breast_milk">"lait maternel "</string>
+    <string name="simultaneous_pumping">effort en tandem</string>
+    <string name="left">"à gauche "</string>
+    <string name="right">"à droite "</string>
+    <string name="sleep">Sommeil</string>
+    <string name="memory_home">mémoire</string>
+    <string name="symptom_home">symptômes</string>
+    <string name="growth_home">croissance</string>
+    <string name="medication_home">médicaments</string>
+    <string name="vaccine_home">vaccin</string>
+    <string name="year_old">an</string>
+    <string name="years_old">ans</string>
+    <string name="month_old">mois</string>
+    <string name="months_old">mois</string>
+    <string name="day_old">jour</string>
+    <string name="days_old">jours</string>
+    <string name="few_hours_old">quelques heures</string>
+</resources>
