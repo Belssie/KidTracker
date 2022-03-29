@@ -19,10 +19,9 @@ Additional options:
 
 
 ## Technologies
-The project is created on Android Studio with Java and the used database is noSQL Firebase RealTime Database.
-Used Firebase options: 
-Firebase Storage - to store uploaded photos;
-Firebase Authentication - for account authentication and password retrieval.
+The project is created on Android Studio with Java and the used database is noSQL Firebase RealTime Databas with the following options:
+- Firebase Storage - to store uploaded photos;
+- Firebase Authentication - for account authentication and password retrieval.
 
 ## Prerequisites
 Android Studio with Emulator/mobile phone with Android OS;
