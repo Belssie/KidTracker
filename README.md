@@ -2,6 +2,7 @@
 ## Description
 This application is a diary for information about a kid's daily routine.
 (Currently fixing some of the code)
+
 The type of data to be added and manipulated with CRUD operations:
 - name, age, birth date and gender of a child;
 - list of tracked children;
