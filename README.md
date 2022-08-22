@@ -41,7 +41,7 @@ I. Code
 - 
 II. Database
 - switch to SQLite DB;
-- 
+
 III. Functionality
 - better interface;
 - diagrams for the chronologies;
