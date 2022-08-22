@@ -38,8 +38,10 @@ I. Code
 - improve the application of OOP principles and use more abstraction;
 - clean the code;
 - add comments;
+- 
 II. Database
 - switch to SQLite DB;
+- 
 III. Functionality
 - better interface;
 - diagrams for the chronologies;
