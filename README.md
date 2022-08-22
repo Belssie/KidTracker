@@ -30,3 +30,22 @@ Android Studio with Emulator/mobile phone with Android OS;
 
 ## How to run
 Open the project through Android Studio and run the application.
+
+
+## Improvement plan:
+I. Code
+- more testing of the functionalities;
+- improve the application of OOP principles and use more abstraction;
+- clean the code;
+- add comments;
+II. Database
+- switch to SQLite DB;
+III. Functionality
+- better interface;
+- diagrams for the chronologies;
+- option to change theme (light/dark);
+- alarm sound;
+- icon for each activity;
+- a section "Icon Legend";
+- ability for the user to add Chip buttons as words in some of the fragments;
+- Push notifications;
