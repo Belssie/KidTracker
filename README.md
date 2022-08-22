@@ -32,7 +32,7 @@ Android Studio with Emulator/mobile phone with Android OS;
 Open the project through Android Studio and run the application.
 
 
-## Improvement plan:
+## Improvement plan
 I. Code
 - more testing of the functionalities;
 - improve the application of OOP principles and use more abstraction;
