@@ -1,7 +1,7 @@
 # KidTracker
 ## Description
 This application is a diary for information about a kid's daily routine.
-(Currently fixing some of the code)
+(Currently fixing some of the code - last section ->Improvement plan)
 
 The type of data to be added and manipulated with CRUD operations:
 - name, age, birth date and gender of a child;
@@ -21,7 +21,7 @@ Additional options:
 
 
 ## Technologies
-The project is created on Android Studio with Java and the used database is noSQL Firebase RealTime Databas with the following options:
+The project is created on Android Studio with Java and the used database is noSQL Firebase RealTime Database with the following options:
 - Firebase Storage - to store uploaded photos;
 - Firebase Authentication - for account authentication and password retrieval.
 
